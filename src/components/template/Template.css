@@ -1,0 +1,11 @@
+.template-container{
+  background-color: rgba(0,0,0,0.05);
+  border: .1px solid white;
+}
+
+.template{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

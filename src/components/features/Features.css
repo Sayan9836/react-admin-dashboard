@@ -1,0 +1,26 @@
+
+
+@media screen and (max-width:40em) {
+    .features{
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width:50em) {
+    .features{
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        gap: 2rem;
+    }
+    /* .firstSet{
+        display: inline-block !important;
+        width:40vw;
+    }
+
+    .secondSet{
+        display: inline-block!important;
+        width: 40vw;
+    } */
+}

@@ -1,0 +1,24 @@
+.about,.features{
+    width: 40vw;
+}
+
+@media screen and (max-width:40em) {
+    /* .container1,.container2{
+        width: 100vw !important;
+        display: flex !important;
+        flex-direction:  !important;
+        
+    }  */
+     .card{
+      flex-direction:column !important;
+    } 
+     .about,.features{
+        width: 80vw ;
+    }
+
+    .license-options,.details
+    {
+        margin-left: 2rem ;
+        
+    }
+}

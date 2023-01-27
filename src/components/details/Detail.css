@@ -1,0 +1,7 @@
+
+
+@media screen and (max-width:40em) {
+        .details-data{
+          flex-direction: column;
+        }
+}
